@@ -1,0 +1,12 @@
+media queries 
+
+mettre un root {} pout initialiser un font size de base ou autre parametre
+
+utiliser les rem(depend du root) ou les em(depend du parent)
+
+pour avoir un proportionalité des taille pour un rendu coherent
+
+media queries divisé par 3
+
+@media screen and (min-width: 600px) 
+

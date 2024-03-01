@@ -1,0 +1,81 @@
+:root {
+    font-size: 14px;
+}
+h1{
+    text-align: center;
+}
+nav {
+    width: 100% ;
+    height: 10vh;
+    background-color: rgba(28, 27, 27, 0.571) ;
+    color:white;
+    padding-top: 5px;
+
+    
+}
+.First-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.dropdown{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.First-list li {
+    padding: 8px;
+    position: relative; /* Position relative pour les éléments li */
+}
+
+.First-list li:hover {
+    background-color: rgba(57, 55, 55, 0.459);
+}
+.fenetre-dropdown{
+    padding: 0;
+    margin: 0;
+}
+.fenetre-content {
+    display: none;
+    position: absolute;
+    background-color: #ff0000;
+    width: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.2); 
+    padding: 0; /* Ajustez le padding à 0 */
+    margin: 0; /* Ajustez la marge à 0 */
+    z-index: 1;
+    top: 100%; /* Positionnement en dessous de l'élément parent */
+    left: 0;
+}
+
+
+.fenetre-dropdown:hover .fenetre-content {
+    display: flex;
+}
+
+main section{
+ width: 90%;
+ margin: 10px;
+ padding: 10px;
+ text-align: center;
+}
+
+main img{
+    width: 100%;
+object-fit: cover;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
